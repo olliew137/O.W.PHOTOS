@@ -23,3 +23,27 @@ li {
     font-family: "Tahoma";
     font-size: 130%;
 }
+
+a:link {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited{
+  color:  #D8BFD8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #556B2F;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:#f4edf4;
+  background-color: transparent;
+  text-decoration: underline;
+}
