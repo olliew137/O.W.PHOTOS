@@ -5,9 +5,9 @@
     <title>cherry blossom</title>
 </head>
   <body>
-    <img src="./images/light_cherry_blossom_bokeh.jpg" alt="cherry blossoms" width="2464px" height="1632px">
+    <img src="" alt="cherry blossoms" width="2464px" height="1632px">
     <p><cite>cherry blossom tree</cite>, taken june 2023</p>
     <img src="./images/Untitled_design_6_.png" map name="image-map">
-    <area alt="arrow" title="arrow" href="./index.html" coords="77,79,0,3" shape="rect">
+    <area alt="arrow" title="arrow" href="index.html" coords="77,79,0,3" shape="rect">
 </map
   </body>
