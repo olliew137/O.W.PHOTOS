@@ -14,7 +14,7 @@
 <h2>My Photography</h2>  
       <ul>
        <br>
-    <li>Nature</li>   
+    <li class=Nature>Nature</li>   
        <img src="Nature.png" usemap="#image_map" width="1080px" height="1080px">
 <map name="image_map">
   <area alt="light cherry blossom" title="light cherry blossom" href="" coords="5,-64,259,196" shape="rect">
@@ -40,7 +40,7 @@
       <br>
       <br>
       <br>
-    <li>Animal</li>
+    <li class="Animal">Animal</li>
     <img src="Animal.png" usemap="#image_map" width="1080px" height="1080px">
 <map name="image_map">
   <area alt="bewa" title="bewa" href="" coords="1,-67,256,192" shape="rect">
@@ -65,7 +65,7 @@
     <br>
     <br>
     <br>
-    <li>Candid</li>
+    <li class="Candid">Candid</li>
        <img src="Candid.png" usemap="#image_map" width="1080px" height="1080px">
 <map name="image_map">
   <area alt="junie" title="junie" href="" coords="1,-67,256,192" shape="rect">
@@ -97,7 +97,7 @@
 <h2>Editing Styles</h2>
     <ul>
        <br>
-    <li>Duotones</li>
+    <li class="Duotones">Duotones</li>
        <img src="Duotones.png" usemap="#image_map" width="1080px" height="1080px">
 <map name="image_map">
   <area alt="1" title="1" href="" coords="1,-67,256,192" shape="rect">
@@ -122,7 +122,7 @@
        <br>
        <br>
        <br>
-    <li>Bokeh</li>
+    <li class="Bokeh">Bokeh</li>
    <img src="Bokeh.png" usemap="#image_map" width="1080px" height="1080px">
 <map name="image_map">
   <area alt="1" title="1" href="" coords="1,-67,256,192" shape="rect">
@@ -150,12 +150,24 @@
        <section>
          <br>
          <br>
-        <h3>Photography Form</h3>
+        <h3>Add Your Photo!</h3>
         <form action="https://O.W.PHOTOS.com/submit-cat-photo">
           <fieldset>
-            <legend>What was your favorite photo?</legend>
-          <input type="text" name="favoritephoto" placeholder="favorite photo name" required>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <br>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <br>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        </fieldset>
+        <fieldset>
+        <p>Title of your Photo:</p>
+        <input type="text" name="Title of your photo" placeholder="photo name" required>
+        </fieldset>
+        <fieldset>
+          <label>Upload your picture: <input type="file" /></label>
+          <br>
           <button type="submit">Submit</button>
+        </fieldset>  
           <p>I made this site with <a href="https://www.w3schools.com/">W3schools</a> and <a href="https://github.com/">GitHub</a><p>
         </form>
       </section>
